@@ -1,29 +1,46 @@
 body{
-    background-color: #244855;
+    background-color: #4cc5f151;
     font-family: 'Times New Roman', Times, serif;
     
 }
+.container{
+    display: flex;
+    flex-direction: column;
+}
 #Intro{
-    background-color: #fbe9d0;
+
+    background-color: #00affa;
     color: #244855;
     padding: 10px;
+    border-radius:10px;
     
 }
-#Projects{
-    background-color: #fbe9d0;
-    color: #244855;
-    
-    
-}
+
 .Bottom{
-    background-color: #fbe9d0;
     color: #244855;
-    padding: 10px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #d0d3fb;
+    
+    border-radius: 10px;
     
 }
+.note{
+    padding-bottom: 10px;
+}
+.images{
+    
+    justify-content: space-between;
+    background-color: #d0d3fb;
+    border-radius: 5px;
+
+}
+
 #Links{
+    text-align: center;
     color: #fbe9d0;
     background-color: white;
-    border-radius: 10%;
+    border-radius: 5px;
     
 }
