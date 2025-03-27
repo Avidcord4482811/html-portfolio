@@ -6,6 +6,7 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+min-width: 780px;
 }
 #Intro{
 
@@ -44,3 +45,25 @@ body{
     border-radius: 5px;
     
 }
+/* @media{
+    max-width: 780px;
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .images{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #Intro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #Links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+} */
