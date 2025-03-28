@@ -42,11 +42,11 @@ body{
 @media (max-width: 500px) {
     .container {
         flex-direction: column;
-        width: 100%;
+        width: 600px;
     }
     .images {
         margin-bottom: 10px;
-        width: 100%;
+        width: 600px;
         height: auto;
     }
     #Links {
