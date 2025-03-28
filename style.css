@@ -1,68 +1,53 @@
 body{
-    background-color: #4cc5f151;
-    font-family: 'Times New Roman', Times, serif;
-    
+    background-color: rgb(59, 59, 89);
 }
-.container{
+.container {
     display: flex;
     flex-direction: column;
-
+    background-color: rgb(9, 16, 79);
+    padding: 10px;
 }
 #Intro{
-
-    background-color: #00affa;
-    color: #244855;
-    padding: 10px;
-    border-radius:20px;
-    margin: 0px 20px 10px 20px;
-    
-}
-
-.Bottom{
-    color: #244855;
-    padding-top: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: #d0d3fb;
-    margin: 0px 20px 10px 20px;
-    border-radius: 20px;
-    
-}
-.note{
-    padding-bottom: 10px;
-}
-.images{
-    
-    justify-content: space-between;
-    background-color: #d0d3fb;
-    border-radius: 5px;
-
-}
-
-#Links{
     text-align: center;
-    color: #fbe9d0;
-    background-color: white;
-    border-radius: 5px;
+    flex: 1;
+    border-radius: 10px;
+    background-color: rgb(161, 161, 233);
+}
+.Bottom{
+    text-align: center;
+    flex: 1;
+    border-radius : 10px;
+    color: white;
+    background-color: rgb(75, 75, 144);
+}
+.images {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(39, 39, 95);
+    border-radius: 10px;
+   
+    margin-bottom: 10px;
     
 }
-@media screen and (max-width: 600px) {
-    .container{
+#Links {
+    text-align: center;
+    flex: 1;
+    background-color: rgb(9, 16, 79);
+
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
         flex-direction: column;
+    }
+    .images {
         margin-bottom: 10px;
     }
-    .images{
-        flex-direction: column;
+    #Links {
         margin-bottom: 10px;
-        min-width: 100%;
     }
-    #Intro{
-        margin: 0px 10px 10px 10px;
-    }
-    .Bottom{
-        margin: 0px 10px 10px 10px;
-    }
-    #Links{
-        margin: 0px 10px 10px 10px;
-    }
-} 
+}
+
