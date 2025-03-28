@@ -13,7 +13,8 @@ body{
     background-color: #00affa;
     color: #244855;
     padding: 10px;
-    border-radius:10px;
+    border-radius:20px;
+    margin: 0px 20px 10px 20px;
     
 }
 
@@ -23,8 +24,8 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     background-color: #d0d3fb;
-    
-    border-radius: 10px;
+    margin: 0px 20px 10px 20px;
+    border-radius: 20px;
     
 }
 .note{
@@ -45,27 +46,23 @@ body{
     border-radius: 5px;
     
 }
- /* /* @media (min-width: 495px) {
-    
+@media screen and (max-width: 600px) {
     .container{
-        display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
     }
-
-    /* .images{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    } 
+    .images{
+        flex-direction: column;
+        margin-bottom: 10px;
+        min-width: 100%;
+    }
     #Intro{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        margin: 0px 10px 10px 10px;
+    }
+    .Bottom{
+        margin: 0px 10px 10px 10px;
     }
     #Links{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        margin: 0px 10px 10px 10px;
     }
- 
-} */
+} 
